@@ -19,7 +19,7 @@ docker build -t python-web-app .
 
 **Run the container:**
 ```bash
-docker run -p 8080:5000 python-web-app
+docker run -p 8080:8080 python-web-app
 ```
 
 **Test the application:**
